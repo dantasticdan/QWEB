@@ -128,7 +128,7 @@ function getData() {
       document.getElementById("LocalTimeID").innerHTML = dl
 
     }
-      //myLatLng = { lat: 50.91798, lng: -113.9527 };
+
       //myLatLng = new google.maps.LatLng(jsonResponse.latitude, jsonResponse.longitude);
       //alert(myLatLng);
    }
