@@ -139,7 +139,6 @@ function getData() {
   };
 
   function myMap() {
-    var myLatLng = { lat: 50.91798, lng: -113.9527 };
     //var myLatLng = { lat: jsonResponse.latitude, lng: jsonResponse.longitude };
     var mapProp= {center:myLatLng,zoom:18,};
     var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
